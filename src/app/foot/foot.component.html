@@ -8,11 +8,13 @@
       </span>
     </div>
     <p class="text-center" >Hoy es {{ currentDate | date : "fullDate" }}</p>
-    <ul>
+    <div class="footLinks" *ngFor="let link of footLinks">
+      <ul>
       <li *ngFor="let link of footLinks">
         <a [href]="link.url">{{ link.label }}</a>
       </li>
-    </ul>
+      </ul>
+    </div>
   </div>
 </footer>
 

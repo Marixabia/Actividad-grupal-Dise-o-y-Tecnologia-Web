@@ -13,8 +13,6 @@ export class FootComponent {
   copyrightText: string = '© App Angular';
   footLinks: { label: string, url: string }[] = [
     { label: 'Inicio', url: '/home' },
-    { label: 'Acerca de nosotros', url: '/about' },
-    { label: 'Contacto', url: '/contact' }
   ];
 }
 
