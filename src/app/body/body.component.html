@@ -1,0 +1,37 @@
+
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-sm-12 col-md-12 col-lg-4 mt-md-5 padd">
+      <div class="card align-content-center">
+        <img src="/assets/img/elotrolado.jpg" class="card-img-top" data-toggle="modal" data-target="#videoModalLabel" aria-hidden="true" alt="...">
+        <div class="card-img-overlay" *ngFor="let item of lista">{{item}}</div>
+        <h4>{{ equip.name }} es de {{ equip.city }}</h4>
+        <p class="text-center">Tristique vitae quam bibendum, congue placerat nec, massa gravida imperdiet diam aenean
+            nunc risus. Tortor ut elit, inceptos mattis metus vestibulum sapien. Potenti lobortis, erat a feugiat turpis.
+            Nam ultricies taciti, tellus duis, ipsum etiam nunc malesuada aliquam. Id dictumst, massa varius in.</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-4 mt-md-5">
+      <div class="card align-content-center">
+        <img src="/assets/img/Que-ver-en-Gran-Canaria_1.jpg" class="card-img-top" data-toggle="modal" data-target="#videoModalLabel" aria-hidden="true" alt="...">
+        <div class="card-img-overlay" *ngFor="let item of listados">{{item}}</div>
+        <h4>{{ equipDos.nameDos }} es de {{ equipDos.cityDos }}</h4>
+        <p class="text-center">Tristique vitae quam bibendum, congue placerat nec, massa gravida imperdiet diam aenean
+        nunc risus. Tortor ut elit, inceptos mattis metus vestibulum sapien. Potenti lobortis, erat a feugiat turpis.
+        Nam ultricies taciti, tellus duis, ipsum etiam nunc malesuada aliquam. Id dictumst, massa varius in.</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-4 mt-md-5">
+      <div class="card align-content-center">
+        <img src="/assets/img/javeaweb.jpg" class="card-img-top" data-toggle="modal" data-target="#videoModalLabel" aria-hidden="true" alt="...">
+        <div class="card-img-overlay" *ngFor="let item of listatres">{{item}}</div>
+        <h4>{{ equipTres.nameTres }} es de {{ equipTres.cityTres }}</h4>
+        <p class="text-center">Tristique vitae quam bibendum, congue placerat nec, massa gravida imperdiet diam aenean
+        nunc risus. Tortor ut elit, inceptos mattis metus vestibulum sapien. Potenti lobortis, erat a feugiat turpis.
+        Nam ultricies taciti, tellus duis, ipsum etiam nunc malesuada aliquam. Id dictumst, massa varius in.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+

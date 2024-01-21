@@ -1,0 +1,24 @@
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="#">VIAJES</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Internacionales</a>
+        <a class="nav-link" href="#">Nacionales</a>
+        <a class="nav-link" href="#">Escapadas</a>
+        <a class="nav-link" href="#" *ngFor="let item of lista">Blog {{item}}</a>
+      </div>
+    </div>
+  </div>
+  <form class="d-flex" role="search">
+    <input class="form-control me-2" type="search" placeholder= {{inputSearch}} aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Buscar</button>
+  </form>
+</nav>
+
+

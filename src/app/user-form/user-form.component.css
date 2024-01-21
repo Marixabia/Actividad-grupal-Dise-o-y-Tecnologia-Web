@@ -1,0 +1,20 @@
+p{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  mso-padding-top-alt: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:1rem auto;
+  max-width: 600px;
+}
+
+h3{
+  text-align: center;
+}

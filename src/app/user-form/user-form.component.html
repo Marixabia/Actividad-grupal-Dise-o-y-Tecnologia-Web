@@ -1,0 +1,17 @@
+<div class="container">
+  <br><br>
+  <h3>CALCULADORA POSITIVA PARA USUARIOS</h3>
+  <input type="text"/>
+  <span>{{inputMessage}}</span>
+  <br><br>
+  <mat-form-field>
+    <input matInput [(ngModel)]="valor1" type="number" placeholder="Escriba el primer valor">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput [(ngModel)]="valor2" type="number" placeholder="Escriba el segundo valor">
+  </mat-form-field>
+  <button mat-raised-button class="btn btn-outline-info" (click)="sumar()">Sumar</button>
+  <p>La suma de los dos valores es: {{resultado}}</p>
+  <br><br><br><br>
+</div>
+

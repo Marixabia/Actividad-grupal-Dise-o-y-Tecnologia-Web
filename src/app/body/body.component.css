@@ -1,0 +1,113 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  margin-top: 80px;
+}
+.descripcion{opacity:0}
+.imagen:hover .descripcion{opacity:1;}
+
+h4{
+  text-align: center;
+  padding-top: 5pt;
+}
+
+.equip {
+  text: center;
+  align-content: center;
+  padding-top: 2pt;
+  margin: auto
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  justify-content: center;
+}
+
+body {
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  font-family: 'Arial', sans-serif;
+  color: #33475b;
+}
+
+.inputMesage1{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+figure {
+  border-radius: 100%;
+  display: block;
+  height: 150px;
+  position: relative;
+  width: 150px;
+}
+figure:after {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  color: #fff;
+  content: attr(title);
+  opacity: 0;
+  padding: 6px 12px;
+  position: absolute;
+  left: 110%;
+  top: 30px;
+  transition: all .25s ease;
+  visibility: hidden;
+  white-space: nowrap;
+}
+
+figure[tooltip-dir="left"]:after {
+  left: 110%;
+  right: auto;
+}
+
+figure[tooltip-dir="bottom"]:after,
+figure[tooltip-dir="top"]:after {
+  left: 50%;
+  right: auto;
+
+  transform: translateX(-50%);
+}
+
+figure[tooltip-dir="bottom"]:after {
+  bottom: auto;
+  top: 110%;
+}
+
+figure[tooltip-dir="top"]:after {
+  bottom: 110%;
+  top: auto;
+}
+
+figure:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+select {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+
+.lista {
+  text-align: center;
+}
+.card-img-overlay{
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
